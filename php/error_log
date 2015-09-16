@@ -1,0 +1,12 @@
+[03-Jun-2015 06:20:08 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/casasatl/public_html/granloma/php/conv.php on line 15
+[03-Jun-2015 06:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/casasatl/public_html/granloma/php/conv.php:15
+Stack trace:
+#0 /home/casasatl/public_html/granloma/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/casasatl/public_html/granloma/php/conv.php on line 15
+[03-Jun-2015 06:30:28 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/casasatl/public_html/granloma/php/conv.php on line 15
+[03-Jun-2015 06:30:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/casasatl/public_html/granloma/php/conv.php:15
+Stack trace:
+#0 /home/casasatl/public_html/granloma/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/casasatl/public_html/granloma/php/conv.php on line 15
